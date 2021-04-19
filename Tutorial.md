@@ -54,9 +54,12 @@ basic.forever(function () {
 ```
 
 ## Step 5
-To make a nice looking propeller, we have to shift the dots clockwise. We can do this by clicking on the button to make the led light go dark and then clicking on the buttons next to it in a clockwise fashion.
-
 Om een mooie propeller te maken moeten we de lichtjes met de klok mee verplaatsen. We kunnen dit doen door op de led lichtjes te klikken om deze te laten uitgaan en dan op het knopje er naast te klikken met de klok mee.
+Bijvoorbeeld naar rechts voor de bovenste 2, naar onder voor de rechter 2 lichtjes, enzovoort...
+
+To make a nice looking propeller, we have to shift the dots clockwise. We can do this by clicking on the button to make the led light go dark and then clicking on the buttons next to it in a clockwise fashion.
+For example to the right for the upper 2 lights, down for the right 2 lights and so on...
+
 ```blocks
 basic.forever(function () {
     basic.showLeds(`
